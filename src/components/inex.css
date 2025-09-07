@@ -1,0 +1,150 @@
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #230,231,233;
+  pointer-events: auto;
+  
+
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.swiper-pagination-bullet {
+  width: 100px !important;  /* короткая линия */
+  height: 4px !important;  /* низкая, как линия */
+  background: rgb(250, 0, 44) !important; /* красный цвет */
+  border-radius: 0 !important;  /* без скругления, КВАДРАТНАЯ */
+  margin: 0 4px !important; /* расстояние между линиями */
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;  /* активная линия ярче */
+}
+
+@media (max-width: 700px) {
+  .swiper-pagination-bullet {
+    width: 60px !important;
+  }
+}
+
+
+.swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 2;
+}
+
+.swiper-slide .slide-title {
+  display: none;
+}
+
+.swiper-slide-active .slide-title {
+  display: block;
+}
+
+.swiper-slide .video-wrapper {
+  width: 537px;
+  height: 294px;
+  margin-top: 55px;
+
+}
+
+
+@media (min-width: 500px) and (max-width: 700px) {
+
+.swiper-slide-active .video-wrapper {
+  width: 437px;
+  height: 194px;
+  margin-top: 0px;
+}
+}
+
+
+.swiper-slide-active .video-wrapper {
+  width: 737px;
+  height: 404px;
+  margin-top: 0px;
+}
+
+@media (min-width: 500px) and (max-width: 1621px) {
+
+.swiper-slide-active .video-wrapper {
+  width: 500px;
+  height: 380px;
+  margin-top: 0px;
+}
+
+}
+
+@media (min-width: 350px) and (max-width: 690px) {
+
+.swiper-slide-active .video-wrapper {
+  width: 350px;
+  height: 380px;
+  margin-top: 0px;
+}
+}
+
+
+
+
+.swiper-wrapper {
+  
+  gap: 2px;
+  
+
+}
+
+
+.swiper-container .swiper-pagination {
+  position: absolute !important;
+  top: 100px !important;
+  bottom: auto !important;
+}
+
+
+.swiper-pagination {
+  position: absolute;     /* или absolute, если нужно поверх других элементов */
+  top: 761px;             /* смещение вниз ровно на 761px */
+}
+
+
+.my-slider .swiper-pagination {
+  position: absolute;
+  top: 80px;
+  bottom: auto;
+  text-align: center;
+
+
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-wrapper {
+  touch-action: pan-y; /* Разрешаем вертикальную прокрутку */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
