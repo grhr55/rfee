@@ -198,7 +198,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
         
-        <img  alt="разное" loading="lazy" src="/img/photo_2025-08-28_00-51-58-removebg-preview.png" className="w-[26px] h-[17px]" alt="icon1" />
+        <img   loading="lazy" src="/img/photo_2025-08-28_00-51-58-removebg-preview.png" className="w-[26px] h-[17px]" alt="icon1" />
       </motion.a>
 
             <motion.a
@@ -207,7 +207,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         transition={{ duration: 0.2 }}
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
-        <img  alt="разное" loading="lazy" src="/img/photo_2025-08-27_16-16-42-removebg-preview.png" className="w-[26px] h-[26px] pr-[2px] pt-[1px]" alt="icon1" />
+        <img   loading="lazy" src="/img/photo_2025-08-27_16-16-42-removebg-preview.png" className="w-[26px] h-[26px] pr-[2px] pt-[1px]" alt="icon1" />
       </motion.a>
  
            <motion.a
@@ -216,7 +216,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         transition={{ duration: 0.2 }}
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
-        <img  alt="разное" loading="lazy" src="/img/XMLID_823_.png" className="w-[18px] h-[14px]" alt="icon1" />
+        <img   loading="lazy" src="/img/XMLID_823_.png" className="w-[18px] h-[14px]" alt="icon1" />
         
       </motion.a>
     </div>
@@ -340,7 +340,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
     <img  alt="разное" loading="lazy"
       src="/img/Image (2).png"
       fetchPriority="high"
-      loading="eager"
+   
       className="w-[100%]"
     />
   </motion.div>

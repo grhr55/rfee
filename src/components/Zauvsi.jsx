@@ -114,7 +114,7 @@ const handleChange = (e) => {
       <div className='2xl:pl-[35px] xl:pl-[35px] lg:pl-[35px] md:pl-[35px] sm:pl-[35px] pl-[17px] flex gap-[12px] pt-[16px]'>
        <a href="https://www.whatsapp.com/?lang=ru_RU">
          <button className='flex border border-[#FA002C] rounded-full p-2 gap-[8px]'>
-          <img  alt="разное" loading="lazy" className='w-[20px] h-[20px]' src='/img/rfe.png' alt="Whatsapp" />
+          <img   loading="lazy" className='w-[20px] h-[20px]' src='/img/rfe.png' alt="Whatsapp" />
           <span>Whatsapp</span>
           
         </button>
@@ -122,7 +122,7 @@ const handleChange = (e) => {
 
       <a href="https://t.me/Rocetk66">
           <button className='flex border border-[#FA002C] rounded-full p-2 gap-[8px]'>
-          <img  alt="разное" loading="lazy" className='w-[20px] h-[20px]' src='/img/dc.png' alt="Telegram" />
+          <img   loading="lazy" className='w-[20px] h-[20px]' src='/img/dc.png' alt="Telegram" />
           <span>Telegram</span>
         </button>
       </a>
