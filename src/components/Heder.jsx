@@ -30,11 +30,11 @@ function Header( ) {
 
 const fetchProducts = async () => { 
   try {
-    const res = await fetch("https://fourfeef.onrender.com/avto/darc"); 
+    const res = await fetch("https://rrfe.onrender.com/avto/darc"); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
-    setproducts(data)
+   setproducts(data.products || []);
   } 
   catch(error) {
     console.error("Ошибка при загрузке товаров:", error); 
@@ -49,11 +49,11 @@ useEffect(() => {
 
 const fetchProduct = async () => { 
   try {
-    const res = await fetch("https://fourfeef.onrender.com/team/teamso"); 
+    const res = await fetch("https://rrfe.onrender.com/team/teamso"); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
-    setcomandes(data)
+    setcomandes(data || []);
   } 
   catch(error) {
     console.error("Ошибка при загрузке товаров:", error); 
@@ -160,13 +160,13 @@ useEffect(() => {
 
         <div className=" hidden min-[1282px]:flex "><h1 className="text-[clamp(24px,6vw,36px)] font-bold  mt-[24px] mb-[27px] ml-[32px]">С пробегом</h1></div>
 
-        <div className=" flex min-[1282px]:hidden "><img src="/img/Image (3).png" className="w-[94px] h-[82px]  mt-[27px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[44px] ml-[25px]">С пробегом</h1></div>
+        <div className=" flex min-[1282px]:hidden "><img  alt="разное" loading="lazy" src="/img/Image (3).png" className="w-[94px] h-[82px]  mt-[27px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[44px] ml-[25px]">С пробегом</h1></div>
 
 
           <h1 className="ml-[32px]  text-[clamp(16px,6vw,16px)] ">Предлагаем купить автомобиль <p>дешевле до 60%, от рыночной цены</p> на Авито и Авто.ру</h1>
         </div>
         <div className="justify-end  hidden min-[1282px]:flex ml-20px  ">
-          <img src="/img/Image (3).png" className="w-[94px] h-[82px]  mr-[55px]"></img>
+          <img  alt="разное" loading="lazy" src="/img/Image (3).png" className="w-[94px] h-[82px]  mr-[55px]"></img>
         </div>
       
       </div>
@@ -180,13 +180,13 @@ useEffect(() => {
 
         <div className=" hidden min-[1282px]:flex "><h1 className="text-[clamp(24px,6vw,36px)] font-bold  mt-[24px] mb-[27px] ml-[32px]">Новые</h1></div>
 
-        <div className=" flex min-[1282px]:hidden "><img src="/img/Image (4).png" className="w-[132px] h-[72px]  mt-[27px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[40px] ">Новые</h1></div>
+        <div className=" flex min-[1282px]:hidden "><img  alt="разное" loading="lazy" src="/img/Image (4).png" className="w-[132px] h-[72px]  mt-[27px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[40px] ">Новые</h1></div>
 
 
           <h1 className="ml-[32px]  text-[clamp(16px,6vw,16px)] ">Предлагаем Вам купить автомобиль <p>дешевле до 60%, от рыночной  </p> ценына Авито и Авто.ру</h1>
         </div>
         <div className="justify-end  hidden min-[1282px]:flex ml-20px  ">
-          <img src="/img/Image (4).png" className="w-[128px] h-[74px]  2xl:w-[198px] 2xl:h-[96px]  xl:w-[198px]  xl:h-[96px]  lg:w-[198px]   lg:h-[96px]     md: sm:  mr-[12px]"></img>
+          <img  alt="разное" loading="lazy" src="/img/Image (4).png" className="w-[128px] h-[74px]  2xl:w-[198px] 2xl:h-[96px]  xl:w-[198px]  xl:h-[96px]  lg:w-[198px]   lg:h-[96px]     md: sm:  mr-[12px]"></img>
         </div>
       
       </div>
@@ -200,13 +200,13 @@ useEffect(() => {
 
         <div className=" hidden min-[1282px]:flex "><h1 className="text-[clamp(24px,6vw,36px)] font-bold  mt-[24px] mb-[27px] ml-[32px]">Под ваш бюджет</h1></div>
 
-        <div className=" flex min-[1282px]:hidden "><img src="/img/Image (5).png" className="w-[132px] h-[85px]  md:h-[122px] mt-[7px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[12px] ">Под ваш <p>бюджет</p></h1></div>
+        <div className=" flex min-[1282px]:hidden "><img  alt="разное" loading="lazy" src="/img/Image (5).png" className="w-[132px] h-[85px]  md:h-[122px] mt-[7px] ml-[20px]"></img><h1 className="text-[clamp(24px,5vw,36px)] font-bold   mt-[12px] ">Под ваш <p>бюджет</p></h1></div>
 
 
           <h1 className="ml-[32px]  text-[clamp(16px,6vw,16px)] ">Предлагаем Вам купить автомобиль  <p>дешевле до 60%, от рыночной </p> ценына Авито и Авто.ру</h1>
         </div>
         <div className="justify-end  hidden min-[1282px]:flex ml-20px  ">
-          <img src="/img/Image (5).png" className="w-[132px] h-[85px]  2xl:w-[198px] 2xl:h-[85px]  xl:w-[223px]  xl:h-[85px]  lg:w-[126px]   lg:h-[106px]     md: sm:  mr-[12px]"></img>
+          <img  alt="разное" loading="lazy" src="/img/Image (5).png" className="w-[132px] h-[85px]  2xl:w-[198px] 2xl:h-[85px]  xl:w-[223px]  xl:h-[85px]  lg:w-[126px]   lg:h-[106px]     md: sm:  mr-[12px]"></img>
         </div>
       
       </div>
@@ -257,7 +257,7 @@ useEffect(() => {
       className=""
     >
       <div className="flex min-[1189px]:hidden">
-        <img src="/img/rgr.png" className="px-4" />
+        <img  alt="разное" loading="lazy" src="/img/rgr.png" className="px-4" />
       </div>
 
       <div className="hidden min-[670px]:flex">
@@ -312,7 +312,7 @@ useEffect(() => {
       transition={{ delay: 0.5, duration: 0.8 }}
       className="hidden min-[1189px]:flex"
     >
-      <img src="/img/rgr.png" />
+      <img  alt="разное" loading="lazy" src="/img/rgr.png" />
     </motion.div>
 
   </div>
@@ -335,8 +335,8 @@ useEffect(() => {
   <h1 className=" max-[1920px]:text-left  min-[400px]:text-center max-[1920px]:pt-[60px]  min-[400px]:pt-[60px]   max-[1920px]:ml-[25px]   min-[400px]:ml-[0px] pb-[44px]   text-[clamp(28px,3vw,44px)] font-extrabold ">Наши гарантии</h1>
 
 
-  <div className=" flex justify-center max-[1920px]:gap-[12px] min-[639px]:gap-6 flex-wrap"> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] xl:mt-[44px] lg:mt-[44px] md:mt-[44px] mt-[42px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[30px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img src="/img/free-icon-prepayment-2262547.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[100px] font-semibold "> 100% возврат <br /> предоплаты </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[10px] pr-[20px] font-semibold ">100% возврат предоплаты </h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] xl:mt-[44px] lg:mt-[44px] max-[1920px]:mt-[0px] min-[846px]:mt-[44px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className=" max-[1920px]:pt-[30px] min-[640px]:pt-[45px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img src="/img/free-icon-contract-903510.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[120px] font-semibold ">Работам <br /> по договору </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[8px] pr-[60px] font-semibold ">Работам по договору </h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] max-[1920px]:mt-[0px] min-[1280px]:mt-[44px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[30px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img src="/img/free-icon-search-file-7183387.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[85px] font-semibold ">Договор без <br /> мелкого шрифта </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[6px] font-semibold ">Договор без мелкого шрифта</h1> </div> </div> </div> </div>
-  <div className=" flex justify-center max-[1920px]:gap-[12px] min-[640px]:gap-6 flex-wrap"> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] xl:mt-[24px] lg:mt-[24px] max-[1920px]:mt-[12px] min-[640px]:mt-[24px] max-[1920px]:mx-4 min-[845px]:mx-0 "> <div className="max-[1920px]:pt-[3px] min-[640px]:pt-[25px] max-[1920px]:pr-[50px] min-[639px]:pr-[0px] 2xl:pt-[24px] xl:pt-[24px] lg:pt-[24px] md:pt-[24px] justify-center flex"> <img src="/img/040---Card-Payment.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px] mt-[30px] max-[1920px]:ml-[0px] min-[639px]:ml-[30px] "></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[69px] font-semibold ">Оплата в касу <br /> нашего автосалона<br /> или на р/с компании </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[6px] font-semibold ">Оплата в кассу нашего<br /> автосалона или на р/с<br /> компании</h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] max-[1920px]:mt-[0px] min-[845px]:mt-[24px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[29px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img src="/img/free-icon-clean-car-3802500.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[130px] font-semibold ">Качество<br /> автомобиля </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[11px] pr-[50px] font-semibold "> Качество автомобиля</h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] max-[1920px]:mt-[0px] min-[1281px]:mt-[24px] max-[1920px]:mx-4 min-[845px]:mx-0 "> <div className="max-[1920px]:pt-[5px] min-[640px]:pt-[24px] max-[1920px]:pr-[14px] min-[639px]:pr-[0px] 2xl:pt-[24px] xl:pt-[24px] lg:pt-[24px] md:pt-[24px] justify-center flex"> <img src="/img/free-icon-shield-1342044.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] ml-[20px] mr-[20px] mt-[25px] max-[1920px]:ml-[0px] min-[639px]:ml-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[50px] font-semibold ">На всех этапах <br /> сделки - автомобили<br /> застрахованы</h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[17px] font-semibold ">На всех этапах сделки - <br /> автомобили застрахованы</h1> </div> </div> </div> </div>
+  <div className=" flex justify-center max-[1920px]:gap-[12px] min-[639px]:gap-6 flex-wrap"> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] xl:mt-[44px] lg:mt-[44px] md:mt-[44px] mt-[42px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[30px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/free-icon-prepayment-2262547.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[100px] font-semibold "> 100% возврат <br /> предоплаты </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[10px] pr-[20px] font-semibold ">100% возврат предоплаты </h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] xl:mt-[44px] lg:mt-[44px] max-[1920px]:mt-[0px] min-[846px]:mt-[44px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className=" max-[1920px]:pt-[30px] min-[640px]:pt-[45px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/free-icon-contract-903510.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[120px] font-semibold ">Работам <br /> по договору </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[8px] pr-[60px] font-semibold ">Работам по договору </h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[44px] max-[1920px]:mt-[0px] min-[1280px]:mt-[44px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[30px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/free-icon-search-file-7183387.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[85px] font-semibold ">Договор без <br /> мелкого шрифта </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[6px] font-semibold ">Договор без мелкого шрифта</h1> </div> </div> </div> </div>
+  <div className=" flex justify-center max-[1920px]:gap-[12px] min-[640px]:gap-6 flex-wrap"> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] xl:mt-[24px] lg:mt-[24px] max-[1920px]:mt-[12px] min-[640px]:mt-[24px] max-[1920px]:mx-4 min-[845px]:mx-0 "> <div className="max-[1920px]:pt-[3px] min-[640px]:pt-[25px] max-[1920px]:pr-[50px] min-[639px]:pr-[0px] 2xl:pt-[24px] xl:pt-[24px] lg:pt-[24px] md:pt-[24px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/040---Card-Payment.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px] mt-[30px] max-[1920px]:ml-[0px] min-[639px]:ml-[30px] "></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[69px] font-semibold ">Оплата в касу <br /> нашего автосалона<br /> или на р/с компании </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[6px] font-semibold ">Оплата в кассу нашего<br /> автосалона или на р/с<br /> компании</h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] max-[1920px]:mt-[0px] min-[845px]:mt-[24px] max-[1920px]:mx-4 min-[800px]:mx-0 "> <div className="max-[1920px]:pt-[29px] min-[640px]:pt-[44px] 2xl:pt-[44px] xl:pt-[44px] lg:pt-[44px] md:pt-[44px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/free-icon-clean-car-3802500.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] mr-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[130px] font-semibold ">Качество<br /> автомобиля </h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[11px] pr-[50px] font-semibold "> Качество автомобиля</h1> </div> </div> </div> <div className="bg-[rgb(255,255,255)] 2xl:w-[411px] xl:w-[411px] lg:w-[411px] md:w-[411px] sm:w-[411px] w-[343px] 2xl:h-[160px] xl:h-[160px] lg:h-[160px] md:h-[160px] sm:h-[160px] h-[100px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] rounded-[20px] 2xl:mt-[24px] max-[1920px]:mt-[0px] min-[1281px]:mt-[24px] max-[1920px]:mx-4 min-[845px]:mx-0 "> <div className="max-[1920px]:pt-[5px] min-[640px]:pt-[24px] max-[1920px]:pr-[14px] min-[639px]:pr-[0px] 2xl:pt-[24px] xl:pt-[24px] lg:pt-[24px] md:pt-[24px] justify-center flex"> <img  alt="разное" loading="lazy" src="/img/free-icon-shield-1342044.png" className="w-[40px] 2xl:w-[60px] xl:w-[60px] lg:w-[60px] md:w-[60px] sm:w-[60px] h-[40px] 2xl:h-[60px] xl:h-[60px] lg:h-[60px] md:h-[60px] sm:h-[60px] ml-[20px] mr-[20px] mt-[25px] max-[1920px]:ml-[0px] min-[639px]:ml-[20px]"></img> <div className=" hidden min-[640px]:flex"> <h1 className="text-[24px] mr-[50px] font-semibold ">На всех этапах <br /> сделки - автомобили<br /> застрахованы</h1> </div> <div className="flex min-[640px]:hidden"> <h1 className="text-[clamp(16px,3vw,24px)] pt-[17px] font-semibold ">На всех этапах сделки - <br /> автомобили застрахованы</h1> </div> </div> </div> </div>
 
 
 
@@ -367,7 +367,7 @@ useEffect(() => {
   <div>
     <a href="договор.txt" download>
       <button className="flex text-[rgb(245,14,48)] text-[clamp(16px,4vw,20px)] font-medium pt-2">
-        <img src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
+        <img  alt="разное" loading="lazy" src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
       </button>
     </a>
   </div>

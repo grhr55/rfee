@@ -75,7 +75,7 @@ const [faction, setFaction] = useState(Array(3).fill(false));
             <a href="договор.txt" download>
               <br/>
               <button className="flex text-[rgb(245,14,48)] pt-2">
-                <img src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
+                <img  alt="разное" loading="lazy" src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
               </button>
             </a>
           </h1>
@@ -87,7 +87,7 @@ const [faction, setFaction] = useState(Array(3).fill(false));
             <a href="договор.txt" download>
               <br/>
               <button className="flex text-[rgb(245,14,48)] pt-2">
-                <img src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
+                <img  alt="разное" loading="lazy" src="/img/download_icon_128877 1.png" className="pr-2" />Скачать пример договора
               </button>
             </a>
           </h1>

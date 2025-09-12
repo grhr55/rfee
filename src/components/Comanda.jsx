@@ -56,9 +56,9 @@ function Comanda({comandes ,products}) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <img
+      <img  alt="разное" loading="lazy"
         className="2xl:w-[411px] xl:w-[306px] lg:w-[306px] md:w-[306px] sm:w-[306px] w-[198px] xl:h-[400px] lg:h-[400px] md:h-[400px] sm:h-[400px] h-[240px] 2xl:h-[496px] rounded-[19px] object-cover"
-        src={`https://fourfeef.onrender.com/team${comande.img}`}
+        src={`https://rrfe.onrender.com/team${comande.img}`}
         alt={comande.name}
       />
       <h1 className="2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute pt-[12px] m-0 p-0 leading-tight flex justify-center bottom-[164px] left-[32px] text-black font-medium text-[clamp(20px,4vw,24px)] z-20">
@@ -73,13 +73,13 @@ function Comanda({comandes ,products}) {
 
       <div className="flex justify-center gap-[8px]">
         <a href={comande.tg}>
-          <img
+          <img  alt="разное" loading="lazy"
             src="/img/Frame.png"
             className="2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute bottom-[32px] min-[1920px]:w-[36px] max-[400px]:w-[26px] min-[1920px]:h-[36px] max-[400px]:h-[26px] left-[32px] font-normal text-[clamp(20px,4vw,20px)] z-20"
           />
         </a>
         <a href={comande.vauder}>
-          <img
+          <img  alt="разное" loading="lazy"
             src="/img/Frame (1).png"
             className="2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute bottom-[32px] min-[1920px]:w-[36px] max-[400px]:w-[26px] min-[1920px]:h-[36px] max-[400px]:h-[26px] left-[80px] font-normal text-[clamp(20px,4vw,20px)] z-20"
           />
@@ -114,7 +114,7 @@ function Comanda({comandes ,products}) {
   slidesPerView={3}
   simulateTouch={true}
   spaceBetween={50}
-  loop={length > 3}
+ 
   grabCursor={true}
   allowTouchMove={true}
   style={{ width: "100%", height: "100%" }}
@@ -225,7 +225,7 @@ breakpoints={{
   slidesPerView={3}
   simulateTouch={true}
   spaceBetween={50}
-  loop={length > 3}
+ 
   allowTouchMove={true}
   style={{ width: "100%", height: "100%" }}
 

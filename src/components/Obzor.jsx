@@ -51,7 +51,7 @@ function Obzor({products}) {
   slidesPerView={3}
   simulateTouch={true}
   spaceBetween={50}
-  loop={products.length > 3}
+ 
   grabCursor={true}
   allowTouchMove={true}
   style={{ width: "100%", height: "100%" }}
@@ -157,7 +157,7 @@ breakpoints={{
   slidesPerView={3}
   simulateTouch={true}
   spaceBetween={50}
-  loop={products.length > 3}
+ 
   allowTouchMove={true}
   style={{ width: "100%", height: "100%" }}
 
@@ -222,7 +222,7 @@ breakpoints={{
     </div>
     <div className=" flex justify-center pt-[100px] 2xl:pb-[100px] xl:pb-[100px] lg:pb-[100px]  pb-[63px] flex-wrap gap-[77px]">
       <div className="px-4">
-      <img src='/img/image 199.png'></img>
+      <img  alt="разное" loading="lazy" src='/img/image 199.png'></img>
     </div>
     
     <div>

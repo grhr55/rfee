@@ -33,13 +33,13 @@ function Contact() {
     
     
           <a href='https://t.me/Rocetk66'>
-            <img src='/img/eded.png'></img>
+            <img  alt="разное" loading="lazy" src='/img/eded.png'></img>
            </a>
              <a href='https://www.viber.com/ru/'>
-            <img src='/img/ee.png'></img>
+            <img  alt="разное" loading="lazy" src='/img/ee.png'></img>
            </a>
              <a href='https://youtu.be/dw23LGgWHKw?si=k0LvZsOiT0jWjW_n'>
-            <img src='/img/fe.png'></img>
+            <img  alt="разное" loading="lazy" src='/img/fe.png'></img>
            </a>
     
            </div>

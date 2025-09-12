@@ -5,17 +5,17 @@ export default function MyMap() {
     <YMaps>
       <Map
         defaultState={{
-          center: [56.143151, 47.251102], // Чебоксары
+          center: [56.143151, 47.251102], 
           zoom: 17,
-          controls: ["zoomControl"], // подключаем только зум-контрол
+          controls: ["zoomControl"], 
         }}
         modules={["control.ZoomControl"]}
         width="100%"
         height="400px"
         options={{
-          zoomControlSize: "small", // маленькие кнопки
-          zoomControlFloat: "left", // слева
-          zoomControlPosition: { top: 150, left: 10 }, // позиция
+          zoomControlSize: "small", 
+          zoomControlFloat: "left", 
+          zoomControlPosition: { top: 150, left: 10 }, 
         }}
       >
         <Placemark

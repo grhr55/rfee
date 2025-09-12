@@ -23,7 +23,7 @@ const zauvs = async (e) => {
   e.preventDefault();
   try {
     const dan = { tel };
-    const response = await axios.post("https://fourfeef.onrender.com/applications/zauvs", dan);
+    const response = await axios.post("https://rrfe.onrender.com/applications/zauvs", dan);
     
     if (response.status === 200 ) {
       setShowThanks(true);   
@@ -114,7 +114,7 @@ const handleChange = (e) => {
       <div className='2xl:pl-[35px] xl:pl-[35px] lg:pl-[35px] md:pl-[35px] sm:pl-[35px] pl-[17px] flex gap-[12px] pt-[16px]'>
        <a href="https://www.whatsapp.com/?lang=ru_RU">
          <button className='flex border border-[#FA002C] rounded-full p-2 gap-[8px]'>
-          <img className='w-[20px] h-[20px]' src='/img/rfe.png' alt="Whatsapp" />
+          <img  alt="разное" loading="lazy" className='w-[20px] h-[20px]' src='/img/rfe.png' alt="Whatsapp" />
           <span>Whatsapp</span>
           
         </button>
@@ -122,7 +122,7 @@ const handleChange = (e) => {
 
       <a href="https://t.me/Rocetk66">
           <button className='flex border border-[#FA002C] rounded-full p-2 gap-[8px]'>
-          <img className='w-[20px] h-[20px]' src='/img/dc.png' alt="Telegram" />
+          <img  alt="разное" loading="lazy" className='w-[20px] h-[20px]' src='/img/dc.png' alt="Telegram" />
           <span>Telegram</span>
         </button>
       </a>
@@ -140,15 +140,15 @@ const handleChange = (e) => {
       <div className='2xl:pl-[35px] xl:pl-[35px] lg:pl-[35px] md:pl-[35px] sm:pl-[35px] pl-[17px] 2xl:pr-[140px] xl:pr-[46px] lg:pr-[46px] pr-[46px] 2xl:pt-[22px] pt-[22px]'>
         <h1 className='text-[clamp(28px,3vw,44px)] font-semibold m-0 p-0 leading-tight'>Точный расчет стоимости уже через 1 час</h1>
         <div className='flex justify-items-center gap-[15px] pt-[40px]'>
-          <img className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
+          <img  alt="разное" loading="lazy" className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
           <h1 className="text-[clamp(16px,1vw,20px)]">Расскажем какие автомобили вы можете купить<br /> с наибольшей выгодой.</h1>
         </div>
         <div className='flex justify-items-center gap-[15px] pt-[24px]'>
-          <img className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
+          <img  alt="разное" loading="lazy" className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
           <h1 className="text-[clamp(16px,1vw,20px)]">Отправим подобранные автомобили на ваш <br/> WatsApp или Telegram</h1>
         </div>
         <div className='flex justify-items-center gap-[15px] pt-[24px]'>
-          <img className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
+          <img  alt="разное" loading="lazy" className='w-[36px] h-[36px] mt-[10px]' src='/img/free-icon-tick-3952263 1.png' />
           <h1 className="text-[clamp(16px,1vw,20px)]">Сделаем точный расчет стоимости автомобиля<br/> с доставкой в ваш город “под ключ”</h1>
         </div>
       </div>

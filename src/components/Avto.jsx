@@ -139,11 +139,11 @@ function Avto({products}) {
       transition={{ delay: index * 0.1, type: "spring", stiffness: 100, damping: 15 }}
       className="bg-white rounded-[10px] p-[24px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] w-[305px] h-[644px] 2xl:w-[411px] 2xl:h-[739px] text-left"
     >
-      <img
+      <img   loading="lazy"
         className="w-[260px] h-[200px] 2xl:w-[363px] 2xl:h-[261px] object-cover rounded-[12px]"
-        src={`https://fourfeef.onrender.com/avto${product.img}`}
+        src={`https://rrfe.onrender.com/avto${product.img}`}
         alt={product.name}
-        loading="lazy"
+        
       />
       <h1 className="text-[18px] 2xl:text-[24px] font-bold pt-[24px]">
         {product.marc}
@@ -151,25 +151,25 @@ function Avto({products}) {
 
       <h1 className="flex items-center justify-between w-full max-w-full pt-[10px]">
         <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">Пробег</span>
-        <img src="/img/Vector 8.png" alt="Line" className="pt-[15px] w-[117px] 2xl:w-[220px] px-2" />
+        <img   loading="lazy"  src="/img/Vector 8.png" alt="Line" className="pt-[15px] w-[117px] 2xl:w-[220px] px-2" />
         <span className="whitespace-nowrap text-[20px] font-semibold">{product.probeg} км</span>
       </h1>
 
       <h1 className="flex items-center justify-between w-full max-w-full pt-[10px]">
         <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">Объем двигателя</span>
-        <img src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[100px] 2xl:w-[200px]" />
+        <img   loading="lazy"  src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[100px] 2xl:w-[200px]" />
         <span className="whitespace-nowrap text-[20px] font-semibold">{product.dviga}</span>
       </h1>
 
       <h1 className="flex items-center justify-between w-full max-w-full pt-[10px]">
         <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">Мощность</span>
-        <img src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[112px] 2xl:w-[210px]" />
+        <img   loading="lazy"  src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[112px] 2xl:w-[210px]" />
         <span className="whitespace-nowrap text-[20px] font-semibold">{product.mouy} л.с.</span>
       </h1>
 
       <h1 className="flex items-center justify-between w-full max-w-full pt-[10px]">
         <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">Коробка</span>
-        <img src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[113px] 2xl:w-[210px]" />
+        <img   loading="lazy"   src="/img/Vector 8.png" alt="Line" className="pt-[15px] px-2 w-[113px] 2xl:w-[210px]" />
         <span className="whitespace-nowrap text-[20px] font-semibold">{product.cor}</span>
       </h1>
 
@@ -221,7 +221,7 @@ function Avto({products}) {
             keyboard={{ enabled: true }}
             mousewheel={false}
             allowTouchMove={true}
-            loop={products.length > 3}
+           
             cssMode
             spaceBetween={20}
             autoplay={{
@@ -261,10 +261,11 @@ function Avto({products}) {
                           key={product._id}
                           className="bg-white rounded-[10px] p-[24px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] w-[311px] h-[630px] text-left"
                         >
-                          <img
-                            src={`https://fourfeef.onrender.com/avto${product.img}`}
+                          <img   loading="lazy"
+                            src={`https://rrfe.onrender.com/avto${product.img}`}
                             alt={product.name}
                             className="w-[263px] h-[186px] rounded-[12px] object-cover"
+                            
                           />
                           <h1 className="text-[18px] 2xl:text-[24px] font-bold pt-[24px]">
                             {product.marc}
@@ -274,9 +275,10 @@ function Avto({products}) {
                             <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">
                               Пробег
                             </span>
-                            <img
+                            <img   loading="lazy"
                               src="/img/Vector 8.png"
                               alt="Line"
+                              
                               className="pt-[15px] w-[117px] 2xl:w-[220px] px-2"
                             />
                             <span className="whitespace-nowrap text-[20px] font-semibold">
@@ -288,9 +290,10 @@ function Avto({products}) {
                             <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">
                               Объем двигателя
                             </span>
-                            <img
+                            <img   loading="lazy"
                               src="/img/Vector 8.png"
                               alt="Line"
+                              
                               className="pt-[15px] px-2 w-[100px] 2xl:w-[200px]"
                             />
                             <span className="whitespace-nowrap text-[20px] font-semibold">
@@ -302,9 +305,10 @@ function Avto({products}) {
                             <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">
                               Мощность
                             </span>
-                            <img
+                            <img   loading="lazy"
                               src="/img/Vector 8.png"
                               alt="Line"
+                              
                               className="pt-[15px] px-2 w-[112px] 2xl:w-[210px]"
                             />
                             <span className="whitespace-nowrap text-[20px] font-semibold">
@@ -316,7 +320,7 @@ function Avto({products}) {
                             <span className="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]">
                               Коробка
                             </span>
-                            <img
+                            <img   loading="lazy"
                               src="/img/Vector 8.png"
                               alt="Line"
                               className="pt-[15px] px-2 w-[113px] 2xl:w-[210px]"
@@ -381,7 +385,7 @@ function Avto({products}) {
             cssMode={false}
             slidesPerView={1.15}
             spaceBetween={10}
-            loop={length > 3}
+           
             allowTouchMove={true}
             centeredSlides={false}
             style={{ width: "100%", height: "100%" }}
@@ -412,8 +416,8 @@ function Avto({products}) {
                       key={product._id}
                       className="bg-white rounded-[19px]  shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] px-[26px] pt-[20px]  w-[311px] h-[675px] text-left"
                     >
-                      <img
-                        src={`https://fourfeef.onrender.com/avto${product.img}`}
+                      <img   loading="lazy"
+                        src={`https://rrfe.onrender.com/avto${product.img}`}
                         alt={product.name}
                         className="rounded-[12px] w-[281px] h-[209px]"
                       />
@@ -425,7 +429,7 @@ function Avto({products}) {
                         <span className="whitespace-nowrap text-[16px] text-[rgb(163,164,165)]">
                           Пробег
                         </span>
-                        <img
+                        <img   loading="lazy"
                           src="/img/Vector 8.png"
                           alt="Line"
                           className="pt-[15px] w-[115px] 2xl:w-[220px] px-2"
@@ -439,7 +443,7 @@ function Avto({products}) {
                         <span className="whitespace-nowrap text-[16px] text-[rgb(163,164,165)]">
                           Объем двигателя
                         </span>
-                        <img
+                        <img   loading="lazy"
                           src="/img/Vector 8.png"
                           alt="Line"
                           className="pt-[15px] px-2 w-[90px] 2xl:w-[200px]"
@@ -453,7 +457,7 @@ function Avto({products}) {
                         <span className="whitespace-nowrap text-[16px] text-[rgb(163,164,165)]">
                           Мощность
                         </span>
-                        <img
+                        <img   loading="lazy"
                           src="/img/Vector 8.png"
                           alt="Line"
                           className="pt-[15px] px-2 w-[100px] 2xl:w-[210px]"
@@ -467,7 +471,7 @@ function Avto({products}) {
                         <span className="whitespace-nowrap text-[16px] text-[rgb(163,164,165)]">
                           Коробка
                         </span>
-                        <img
+                        <img   loading="lazy"
                           src="/img/Vector 8.png"
                           alt="Line"
                           className="pt-[15px] px-2 w-[110px] 2xl:w-[210px]"
@@ -498,8 +502,8 @@ function Avto({products}) {
                           <span className="pl-[6px]">₽</span>
                         </h1>
                       </div>
-    
                       <a >
+                        
                         <button   onClick={() => {
         const section = document.getElementById("zauvs");
         if (section) {

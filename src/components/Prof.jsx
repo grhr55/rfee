@@ -154,20 +154,20 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
     
   })}
     <div className=" flex gap-[8px] pt-[70px]">
-      <img className=" w-[24px] h-[24px] mt-[2px] " src="/img/Vector.png"></img>
+      <img  alt="разное" loading="lazy" className=" w-[24px] h-[24px] mt-[2px] " src="/img/Vector.png"></img>
       <h1 className=" text-[24px] font-bold">8 927 997 12 42</h1>
     </div>
     <div className=" flex gap-[12px] pt-[24px]">
       <a href="https://t.me/Rocetk66">
-        <img src="/img/Vector (5).png">
+        <img  alt="разное" loading="lazy" src="/img/Vector (5).png">
         </img>
       </a>
          <a href="https://www.viber.com/ru/">
-        <img src="/img/Vector (6).png">
+        <img  alt="разное" loading="lazy" src="/img/Vector (6).png">
         </img>
       </a>
          <a href="https://youtu.be/dw23LGgWHKw?si=Yf_iZJVvqyKe6fv1">
-        <img className="w-[30px] h-[30px]" src="/img/Group 2317.png">
+        <img  alt="разное" loading="lazy" className="w-[30px] h-[30px]" src="/img/Group 2317.png">
         </img>
       </a>
 
@@ -198,7 +198,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
         
-        <img src="/img/photo_2025-08-28_00-51-58-removebg-preview.png" className="w-[26px] h-[17px]" alt="icon1" />
+        <img  alt="разное" loading="lazy" src="/img/photo_2025-08-28_00-51-58-removebg-preview.png" className="w-[26px] h-[17px]" alt="icon1" />
       </motion.a>
 
             <motion.a
@@ -207,7 +207,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         transition={{ duration: 0.2 }}
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
-        <img src="/img/photo_2025-08-27_16-16-42-removebg-preview.png" className="w-[26px] h-[26px] pr-[2px] pt-[1px]" alt="icon1" />
+        <img  alt="разное" loading="lazy" src="/img/photo_2025-08-27_16-16-42-removebg-preview.png" className="w-[26px] h-[26px] pr-[2px] pt-[1px]" alt="icon1" />
       </motion.a>
  
            <motion.a
@@ -216,7 +216,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
         transition={{ duration: 0.2 }}
         className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-black hover:bg-[rgb(245,14,48)]"
       >
-        <img src="/img/XMLID_823_.png" className="w-[18px] h-[14px]" alt="icon1" />
+        <img  alt="разное" loading="lazy" src="/img/XMLID_823_.png" className="w-[18px] h-[14px]" alt="icon1" />
         
       </motion.a>
     </div>
@@ -337,7 +337,7 @@ const sectionsIds = ['about', 'services', 'how-to-buy', 'advantages', 'reviews',
     transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
     className="pl-[5px]"
   >
-    <img
+    <img  alt="разное" loading="lazy"
       src="/img/Image (2).png"
       fetchPriority="high"
       loading="eager"

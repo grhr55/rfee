@@ -76,7 +76,7 @@ function Onas() {
             }}
           >
             <div className="bg-red-600 w-[52px] h-[52px] rounded-[30px]">
-              <img src={item.img} className="px-2 pt-[7px]" />
+              <img  alt="разное" loading="lazy" src={item.img} className="px-2 pt-[7px]" />
             </div>
             <h1 className="pt-[11px] text-[clamp(16px,4vw,20px)] font-medium">{item.text}</h1>
           </motion.div>
