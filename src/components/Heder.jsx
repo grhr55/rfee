@@ -24,17 +24,18 @@ function Header( ) {
 
   const [products ,setproducts] = useState([])
   const [comandes ,setcomandes] = useState([])
+  const [page, setPage] = useState(1);
 
 
     
 
 const fetchProducts = async () => { 
   try {
-    const res = await fetch("https://rrfe.onrender.com/avto/darc"); 
+    const res = await fetch(`https://rrfe.onrender.com/avto/darc?page=${page}&limit=12`); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
-   setproducts(data.products || []);
+   setproducts(prev => [...prev, ...(data.products || [])]);
   } 
   catch(error) {
     console.error("Ошибка при загрузке товаров:", error); 
