@@ -56,9 +56,9 @@ function Comanda({comandes ,products}) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <img  alt="разное" loading="lazy"
+      <img  loading="lazy"
         className="2xl:w-[411px] xl:w-[306px] lg:w-[306px] md:w-[306px] sm:w-[306px] w-[198px] xl:h-[400px] lg:h-[400px] md:h-[400px] sm:h-[400px] h-[240px] 2xl:h-[496px] rounded-[19px] object-cover"
-        src={`https://rrfe.onrender.com/team${comande.img}`}
+        src={`https://fourfeef.onrender.com/team${comande.img}`}
         alt={comande.name}
       />
       <h1 className="2xl:absolute xl:absolute lg:absolute md:absolute sm:absolute pt-[12px] m-0 p-0 leading-tight flex justify-center bottom-[164px] left-[32px] text-black font-medium text-[clamp(20px,4vw,24px)] z-20">

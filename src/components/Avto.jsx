@@ -141,7 +141,7 @@ function Avto({products}) {
     >
       <img   loading="lazy"
         className="w-[260px] h-[200px] 2xl:w-[363px] 2xl:h-[261px] object-cover rounded-[12px]"
-        src={`https://rrfe.onrender.com/avto${product.img}`}
+        src={`https://fourfeef.onrender.com/avto${product.img}`}
         alt={product.name}
         
       />
@@ -262,7 +262,7 @@ function Avto({products}) {
                           className="bg-white rounded-[10px] p-[24px] shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] w-[311px] h-[630px] text-left"
                         >
                           <img   loading="lazy"
-                            src={`https://rrfe.onrender.com/avto${product.img}`}
+                            src={`https://fourfeef.onrender.com/avto${product.img}`}
                             alt={product.name}
                             className="w-[263px] h-[186px] rounded-[12px] object-cover"
                             
@@ -417,7 +417,7 @@ function Avto({products}) {
                       className="bg-white rounded-[19px]  shadow-[0_2px_16px_0_rgba(0,0,0,0.08)] px-[26px] pt-[20px]  w-[311px] h-[675px] text-left"
                     >
                       <img   loading="lazy"
-                        src={`https://rrfe.onrender.com/avto${product.img}`}
+                        src={`https://fourfeef.onrender.com/avto${product.img}`}
                         alt={product.name}
                         className="rounded-[12px] w-[281px] h-[209px]"
                       />

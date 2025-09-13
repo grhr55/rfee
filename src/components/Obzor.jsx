@@ -87,7 +87,7 @@ breakpoints={{
 
 
 
-      slideToClickedSlide={true} 
+  slideToClickedSlide={true} 
   centeredSlides={true}       
   onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)} 
      

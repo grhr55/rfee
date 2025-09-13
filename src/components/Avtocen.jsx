@@ -105,8 +105,8 @@ function Avtocen({products}) {
                     
                     className="bg-white rounded-[10px] shadow-[0px_2px_34px_7px_rgba(227,81,81,0.23)] p-[24px] w-[411px] h-[652px] text-left"
                   >
-                    <img  alt="разное" loading="lazy" className="  w-[363px] h-[271px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
-                      src={`https://rrfe.onrender.com/avto${product.img}`}
+                    <img   loading="lazy" className="  w-[363px] h-[271px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
+                      src={`https://fourfeef.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
@@ -115,10 +115,10 @@ function Avtocen({products}) {
      
     
     
-                     <h1 className="flex items-center  justify-between w-full max-w-full  pt-[10px] ">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Пробег</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px]  w-[220px]   px-2"/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.probeg}  км</span></h1>
-                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Объем двигателя</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    w-[200px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.dviga}</span></h1>
-                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  w-[210px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.mouy}л.с.</span></h1>
-                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    w-[210px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.cor}</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full  pt-[10px] ">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Пробег</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px]  w-[220px]   px-2"/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.probeg}  км</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Объем двигателя</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    w-[200px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.dviga}</span></h1>
+                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  w-[210px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.mouy}л.с.</span></h1>
+                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    w-[210px] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.cor}</span></h1>
     
     
                        
@@ -155,15 +155,15 @@ function Avtocen({products}) {
                     key={product._id}
                     className="bg-white rounded-[10px] box-border border border-[rgba(152,152,152,0.5)]  p-[24px] w-[305px] h-[450px] 2xl:w-[411px] 2xl:h-[450px] text-left"
                   >
-                    <img  alt="разное" loading="lazy" className="  w-[363px] h-[240px]   2xl:w-[363px]  2xl:h-[240px] xl:h-[200px]  rounded-[12px]"
-                      src={`https://rrfe.onrender.com/avto${product.img}`}
+                    <img   loading="lazy" className="  w-[363px] h-[240px]   2xl:w-[363px]  2xl:h-[240px] xl:h-[200px]  rounded-[12px]"
+                      src={`https://fourfeef.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[10px]">{product.marc}</h1>
     
                   
-                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2 w-[112px]  2xl:w-[210px] "/> <span className="whitespace-nowrap text-[20px] text-[rgba(0,0,0,0.66)] font-semibold">{product.mouy}л.с.</span></h1>
-                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2   w-[113px] 2xl:w-[210px] "/> <span className="whitespace-nowrap text-[20px]  text-[rgba(0,0,0,0.66)] font-semibold">{product.cor}</span></h1>
+                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2 w-[112px]  2xl:w-[210px] "/> <span className="whitespace-nowrap text-[20px] text-[rgba(0,0,0,0.66)] font-semibold">{product.mouy}л.с.</span></h1>
+                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2   w-[113px] 2xl:w-[210px] "/> <span className="whitespace-nowrap text-[20px]  text-[rgba(0,0,0,0.66)] font-semibold">{product.cor}</span></h1>
     
     
     
@@ -241,8 +241,8 @@ function Avtocen({products}) {
                     
                     className=" bg-white rounded-[10px] shadow-[0px_2px_34px_7px_rgba(227,81,81,0.23)] p-[24px] xl:w-[397px] lg:w-[397px] md:w-[397px]   h-[602px] 2xl:w-[411px] 2xl:h-[652px] text-left"
                   >
-                    <img  alt="разное" loading="lazy" className="  w-[375px] h-[240px]   2xl:w-[363px]  object-cover  2xl:h-[240px] rounded-[12px]"
-                      src={`https://rrfe.onrender.com/avto${product.img}`}
+                    <img   loading="lazy" className="  w-[375px] h-[240px]   2xl:w-[363px]  object-cover  2xl:h-[240px] rounded-[12px]"
+                      src={`https://fourfeef.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
@@ -251,10 +251,10 @@ function Avtocen({products}) {
      
     
     
-                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Пробег</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] min-[1920px]:w-[205px]  max-[450px]:w-[43%]  w-[55%]   px-2"/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.probeg}  км</span></h1>
-                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Объем двигателя</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[191px]  max-[450px]:w-[40%]  w-[54%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.dviga}</span></h1>
-                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[200px]  max-[450px]:w-[43%]  w-[53%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.mouy}л.с.</span></h1>
-                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2   min-[1920px]:w-[189px]  max-[450px]:w-[40%]  w-[57%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.cor}</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Пробег</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] min-[1920px]:w-[205px]  max-[450px]:w-[43%]  w-[55%]   px-2"/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.probeg}  км</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Объем двигателя</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[191px]  max-[450px]:w-[40%]  w-[54%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.dviga}</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[200px]  max-[450px]:w-[43%]  w-[53%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.mouy}л.с.</span></h1>
+                     <h1 className="flex items-center  justify-between w-full max-w-full pt-[5px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2   min-[1920px]:w-[189px]  max-[450px]:w-[40%]  w-[57%] "/> <span className="whitespace-nowrap text-[20px] font-semibold">{product.cor}</span></h1>
     
     
                        
@@ -289,16 +289,16 @@ function Avtocen({products}) {
                     
                     className="bg-white rounded-[20px] box-border border border-[rgba(152,152,152,0.5)] p-[24px] xl:w-[397px] lg:w-[397px] md:w-[397px]   h-[463px] 2xl:w-[411px] 2xl:h-[652px] text-left"
                   >
-                    <img  alt="разное" loading="lazy" className="  w-[363px] h-[235px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
-                      src={`https://rrfe.onrender.com/avto${product.img}`}
+                    <img   loading="lazy" className="  w-[363px] h-[235px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
+                      src={`https://fourfeef.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
     
                   
      
-                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[200px]  max-[450px]:w-[44%]   w-[56%] "/> <span className="whitespace-nowrap text-[20px] text-[rgba(0,0,0,0.66)] font-semibold">{product.mouy}л.с.</span></h1>
-                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img  alt="разное" loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    min-[1920px]:w-[189px]  max-[450px]:w-[40%]  w-[55%] "/> <span className="whitespace-nowrap text-[20px]  text-[rgba(0,0,0,0.66)] font-semibold">{product.cor}</span></h1>
+                      <h1 className="flex items-center  justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Мощность</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2  min-[1920px]:w-[200px]  max-[450px]:w-[44%]   w-[56%] "/> <span className="whitespace-nowrap text-[20px] text-[rgba(0,0,0,0.66)] font-semibold">{product.mouy}л.с.</span></h1>
+                      <h1 className="flex items-center   justify-between w-full max-w-full pt-[10px]">  <span className ="whitespace-nowrap text-[16px] font-normal text-[rgb(163,164,165)]" >Коробка</span><img   loading="lazy" src="/img/Vector 8.png" alt="Line"  className="pt-[15px] px-2    min-[1920px]:w-[189px]  max-[450px]:w-[40%]  w-[55%] "/> <span className="whitespace-nowrap text-[20px]  text-[rgba(0,0,0,0.66)] font-semibold">{product.cor}</span></h1>
     
     
                        
