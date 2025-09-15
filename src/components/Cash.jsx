@@ -130,7 +130,7 @@ function Cash({products}) {
                     
                   >
                     <img  loading="lazy" className=" 2xl:min-[1920px]:w-[411px] max-[1900px]:w-[360px]   2xl:min-[1920px]:h-[309px] max-[1900px]:h-[289px]      rounded-[19px] bg-[rgba(217,217,217,1)] "
-                      src={`https://rrfe.onrender.com/avto${product.img}`} 
+                      src={` https://fourfeef.onrender.com/avto${product.img}`} 
                       alt={product.name}
                     />
                    
@@ -200,7 +200,7 @@ function Cash({products}) {
                   >
                     
                     <img   loading="lazy" className=" 2xl:min-[1920px]:w-[411px] 2xl:max-[1900px]:w-[360px] xl:w-[360px] lg:w-[360px] md:w-[360px] sm:w-[360px]    2xl:min-[1920px]:h-[309px] 2xl:max-[1900px]:h-[289px]  xl:h-[289px] lg:h-[289px]  md:h-[289px] sm:h-[289px]  w-[280px]  h-[200px]  mx-4     rounded-[19px] bg-[rgba(217,217,217,1)] "
-                      src={`https://rrfe.onrender.com/avto${product.img}`} 
+                      src={` https://fourfeef.onrender.com/avto${product.img}`} 
                       alt={product.name}
                     />  
                   </div>

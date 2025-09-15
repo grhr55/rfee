@@ -23,7 +23,7 @@ const zauvs = async (e) => {
   e.preventDefault();
   try {
     const dan = { tel };
-    const response = await axios.post("https://rrfe.onrender.com/applications/zauvs", dan);
+    const response = await axios.post(" https://fourfeef.onrender.com/applications/zauvs", dan);
     
     if (response.status === 200 ) {
       setShowThanks(true);   
