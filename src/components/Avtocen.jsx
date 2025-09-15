@@ -106,7 +106,7 @@ function Avtocen({products}) {
                     className="bg-white rounded-[10px] shadow-[0px_2px_34px_7px_rgba(227,81,81,0.23)] p-[24px] w-[411px] h-[652px] text-left"
                   >
                     <img   loading="lazy" className="  w-[363px] h-[271px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
-                      src={`https://fourfeef.onrender.com/avto${product.img}`}
+                      src={`https://rrfe.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
@@ -156,7 +156,7 @@ function Avtocen({products}) {
                     className="bg-white rounded-[10px] box-border border border-[rgba(152,152,152,0.5)]  p-[24px] w-[305px] h-[450px] 2xl:w-[411px] 2xl:h-[450px] text-left"
                   >
                     <img   loading="lazy" className="  w-[363px] h-[240px]   2xl:w-[363px]  2xl:h-[240px] xl:h-[200px]  rounded-[12px]"
-                      src={`https://fourfeef.onrender.com/avto${product.img}`}
+                      src={`https://rrfe.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[10px]">{product.marc}</h1>
@@ -242,7 +242,7 @@ function Avtocen({products}) {
                     className=" bg-white rounded-[10px] shadow-[0px_2px_34px_7px_rgba(227,81,81,0.23)] p-[24px] xl:w-[397px] lg:w-[397px] md:w-[397px]   h-[602px] 2xl:w-[411px] 2xl:h-[652px] text-left"
                   >
                     <img   loading="lazy" className="  w-[375px] h-[240px]   2xl:w-[363px]  object-cover  2xl:h-[240px] rounded-[12px]"
-                      src={`https://fourfeef.onrender.com/avto${product.img}`}
+                      src={`https://rrfe.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
@@ -290,7 +290,7 @@ function Avtocen({products}) {
                     className="bg-white rounded-[20px] box-border border border-[rgba(152,152,152,0.5)] p-[24px] xl:w-[397px] lg:w-[397px] md:w-[397px]   h-[463px] 2xl:w-[411px] 2xl:h-[652px] text-left"
                   >
                     <img   loading="lazy" className="  w-[363px] h-[235px]   2xl:w-[363px]  2xl:h-[237px] rounded-[12px]"
-                      src={`https://fourfeef.onrender.com/avto${product.img}`}
+                      src={`https://rrfe.onrender.com/avto${product.img}`}
                       alt={product.name}
                     />
                     <h1 className="text-[18px]   2xl:text-[24px] font-bold  pt-[24px]">{product.marc}</h1>
