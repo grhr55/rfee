@@ -25,41 +25,25 @@ function Header( ) {
   const [products ,setproducts] = useState([])
   const [comandes ,setcomandes] = useState([])
 
-  fetch("https://rrfe.onrender.com/avto/ping-db")
-  .then(res => res.json())
-  .then(data => console.log(data))
-  .catch(err => console.error(err));
-
-
 
     
-  const fetchProducts = async () => { 
-    const startTime = performance.now(); // начало измерения
-    try {
-      const res = await fetch("https://rrfe.onrender.com/avto/darc"); 
-      
-      const serverTime = performance.now(); // после получения ответа от сервера (до JSON)
-      
-      if (!res.ok) throw new Error("Ошибка загрузки данных"); 
-      
-      const data = await res.json(); 
-      const endTime = performance.now(); 
-      
-      setproducts(data);
-      
-      console.log(`Время до ответа сервера: ${(serverTime - startTime).toFixed(2)} ms`);
-      console.log(`Время обработки данных (JSON): ${(endTime - serverTime).toFixed(2)} ms`);
-      console.log(`Общее время получения данных: ${(endTime - startTime).toFixed(2)} ms`);
-      
-    } 
-    catch(error) {
-      console.error("Ошибка при загрузке товаров:", error); 
-    } 
-  };
 
-  useEffect(() => { 
-    fetchProducts(); 
-  }, []);
+const fetchProducts = async () => { 
+  try {
+    const res = await fetch("https://rrfe.onrender.com/avto/darc"); 
+    if (!res.ok) throw new Error("Ошибка загрузки данных"); 
+    
+    const data = await res.json(); 
+   setproducts(data);
+  } 
+  catch(error) {
+    console.error("Ошибка при загрузке товаров:", error); 
+  } 
+};
+
+useEffect(() => { 
+  fetchProducts(); 
+}, []);
 
 
 
