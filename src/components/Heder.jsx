@@ -49,7 +49,7 @@ useEffect(() => {
 
 const fetchProduct = async () => { 
   try {
-    const res = await fetch("  https://fourfeef.onrender.com/team/teamso"); 
+    const res = await fetch("  http://localhost:7000/team/teamso"); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
