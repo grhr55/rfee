@@ -30,7 +30,7 @@ function Header( ) {
 
 const fetchProducts = async () => { 
   try {
-    const res = await fetch(" https://fourfeef.onrender.com/avto/darc"); 
+    const res = await fetch("https://fourfeef.onrender.com/avto/darc"); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
@@ -49,7 +49,7 @@ useEffect(() => {
 
 const fetchProduct = async () => { 
   try {
-    const res = await fetch(" https://fourfeef.onrender.com/team/teamso"); 
+    const res = await fetch("  https://fourfeef.onrender.com/team/teamso"); 
     if (!res.ok) throw new Error("Ошибка загрузки данных"); 
     
     const data = await res.json(); 
